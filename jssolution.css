@@ -6,40 +6,45 @@
 #firstContainer{
 
     position: fixed;
+    display: flex;
     top: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow: 1px 1px 3px 0px;
     width: 100%;
     background-color: white;
-   
     
 }
 
 #logo{
-
-    padding: 10px;
+     
+    padding-bottom: 7px;
+    text-align: center;
     color: rgb(2, 2, 2);
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 29px;
     letter-spacing: .1em;
+    /* font-size: 24px; */
+  
 
 }
 
-#hamRaper{
+/* #hamRaper{
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 15px;
+    width: 33px;
+    height: 4px;
+    margin: 3px;
+    background-color: rgb(0, 0, 0);
+   
 
-}
+} */
 
 .hamburger{
     
- width: 33px;
- height: 1px;
- background-color: rgb(0, 0, 0);
- width: 27px;
+    margin: 7px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    width: 27px;
 
 }
 
@@ -47,8 +52,8 @@
 
 a{
 
-    padding: 10px;
-    margin-right: 1em;
+    /* padding: 10px;
+    margin-right: 1em; */
     color: white;
     font-size: 25px;
     letter-spacing: .1em;
@@ -77,15 +82,20 @@ a{
 
 header{
 
+    box-sizing: border-box;
+    width: 100%;
     margin-top: 200px;
     position: absolute;
     padding-left: 10px;
+    PADDING-RIGHT: 10px;
     top: 0;
+    z-index:-1;
 
 }
 
 #hlo{
-
+    
+    display: flex;
     flex-direction: column;
 }
 
@@ -99,7 +109,7 @@ header{
     background-color: black;
     color: antiquewhite;
     padding: 13px;
-    width: 213px;
+    /* width: 213px; */
     text-align: center;
 }
 
@@ -149,8 +159,8 @@ span{
     
     width: 100px;
     height: auto;
-    margin-left: 85px;
-    z-index: -1;
+   
+   
     
 }
 
