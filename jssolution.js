@@ -1,12 +1,11 @@
 
-//$(document).ready(function () {
+$(document).ready(function () {
     
 
-  //  $("div").css("display" , "flex");
+    $("h3").css("color" , "white");
     
     
-
-//});
+});
    
     
 

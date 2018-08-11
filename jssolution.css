@@ -167,12 +167,23 @@ span{
 
 .imgContainer{
 
-    height: 352px;
-    background-color: gray;
-
+    height: 390px;
+    background-color: #6a5acda1;
 }
+
 .projectbox{
 
     margin-bottom: 51px;
     
 }
+
+.cartmarg{
+
+    margin-bottom: 53px;
+}
+
+.h2margin{
+
+    margin-bottom: 22px;
+}
+
