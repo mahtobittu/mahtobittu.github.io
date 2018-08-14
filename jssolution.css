@@ -202,5 +202,12 @@ span{
     margin-bottom: 28px;
     font-weight: 500;
     margin-top:28px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.input1{
+    
+    height: 33px;
 }
 
