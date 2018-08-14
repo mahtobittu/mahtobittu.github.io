@@ -208,6 +208,8 @@ span{
 
 .input1{
     
+    border: 1px solid darkgrey;
     height: 33px;
+    margin-bottom: 13px;
 }
 
