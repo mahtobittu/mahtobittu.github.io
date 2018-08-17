@@ -198,21 +198,53 @@ span{
 
 .h2margin{
     
-   padding: 11px;
+    padding: 33px;
     box-sizing: border-box;
-    color: gray;
+    color: #000000d6;
     /* margin-bottom: 28px; */
-    font-weight: 500;
+    font-weight: 400;
     /* margin-top: 28px; */
     font-weight: bold;
     font-size: larger;
+    letter-spacing: 1px;
+    
 }
 
 .input1{
     
-    border: 0px;
-    border-bottom: 1px solid #2731bd70;
-    height: 33px;
-    margin-bottom: 13px;
+    font-weight: 100;
+    margin-bottom: 8px;
+    height: 25px;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #414bd6;
+    background-color: #fff;
+    background-image: none;
+    border: .0625rem solid #ccc;
+    border-radius: .25rem;
+    letter-spacing: 1px;
 }
 
+label{
+    
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #ccc;
+
+}
+
+textarea::placeholder {
+    
+    color:#82808e;
+
+  }
+
+
+  #formwraper{
+
+    display: flex;
+    justify-content: center;
+
+  }

@@ -4,6 +4,7 @@ $(document).ready(function () {
 
     $("h3").css("color" , "white");
     $("li").css("margin-bottom" , "5px");
+    $("#scrolld").animate({height :'30px'}, "slow");
     //$("li").css("font-size" , "larger");
     
     
