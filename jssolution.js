@@ -6,6 +6,17 @@ $(document).ready(function () {
     $("li").css("margin-bottom" , "5px");
     $("#scrolld").animate({height :'30px'}, "slow");
     //$("li").css("font-size" , "larger");
+    $(".input1").change(function(){
+
+        $(this).css("border" , "1px solid red");
+
+    });
+    
+    
+    
+    
+    
+    
     
     
 });

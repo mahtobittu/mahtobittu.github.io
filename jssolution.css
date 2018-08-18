@@ -222,9 +222,11 @@ span{
     color: #414bd6;
     background-color: #fff;
     background-image: none;
-    border: .0625rem solid #ccc;
-    border-radius: .25rem;
+    border: transparent;
+    /* border-radius: .25rem; */
     letter-spacing: 1px;
+    border-bottom: 1px solid darkgrey;
+    outline: #f50000;
 }
 
 label{
