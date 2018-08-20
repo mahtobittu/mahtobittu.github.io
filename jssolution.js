@@ -15,6 +15,14 @@ $(document).ready(function () {
     
     
   ScrollReveal().reveal('.hack', { delay: 250 });  
+
+  $("#hamRaper").click(function() {
+    
+      $("#hidethis").addClass(".hamhide");
+      
+     
+    
+    });
     
     
     

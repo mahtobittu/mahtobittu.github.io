@@ -14,6 +14,25 @@ h3{
 
 }
 
+.hamhide{
+
+    display:none;
+
+}
+
+.ham1{
+    
+    transform: rotate(45deg);
+}
+
+.ham2{
+
+    transform: rotate(135deg);
+    
+}
+
+
+
 #firstContainer{
 
     position: fixed;
