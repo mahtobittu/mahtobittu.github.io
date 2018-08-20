@@ -8,7 +8,7 @@ $(document).ready(function () {
     //$("li").css("font-size" , "larger");
     $(".input1").change(function(){
 
-        $(this).css("border" , "1px solid red");
+      
 
     });
     

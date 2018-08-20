@@ -16,15 +16,18 @@ h3{
 
 #firstContainer{
 
-       /* position: fixed; */
-       display: flex;
-       /* top: 0; */
-       margin-top: 40px;
-       display: flex;
-       justify-content: center;
-       /* box-shadow: 1px 1px 3px 0px; */
-       width: 100%;
-       /* background-color: white;*/
+    position: fixed;
+    display: flex;
+    /* top: 0; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 1px 1px 3px 0px; */
+    width: 100%;
+    height: auto;
+    /* background-color: white; */
+    z-index: 3;
+    border-radius: 97px;
     
 }
 
@@ -181,7 +184,7 @@ span{
 .imgContainer{
 
     height: 390px;
-    background-color: #6a5acda1;
+    background-color: #4a495473;
 }
 
 .projectbox{
@@ -226,7 +229,7 @@ span{
     /* border-radius: .25rem; */
     letter-spacing: 1px;
     border-bottom: 1px solid darkgrey;
-    outline: #f50000;
+    outline:none;
 }
 
 label{
@@ -240,6 +243,13 @@ label{
 textarea::placeholder {
     
     color:#82808e;
+
+  }
+
+  textarea:focus {
+    
+    outline: none;
+    border-bottom: 2px solid #414bd6;
 
   }
 
