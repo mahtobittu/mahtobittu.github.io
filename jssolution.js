@@ -14,7 +14,7 @@ $(document).ready(function () {
     
     
     
-    
+  ScrollReveal().reveal('.hack', { delay: 250 });  
     
     
     
