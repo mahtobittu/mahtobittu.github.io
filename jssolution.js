@@ -6,25 +6,32 @@ $(document).ready(function () {
     $("li").css("margin-bottom" , "5px");
     $("#scrolld").animate({height :'30px'}, "slow");
     //$("li").css("font-size" , "larger");
-    $(".input1").change(function(){
-
-      
-
-    });
     
     
     
-  ScrollReveal().reveal('.hack', { delay: 250 });  
+    
+  
 
   $("#hamRaper").click(function() {
-    
-      $("#hidethis").addClass(".hamhide");
+
+
+    //$(this).css("margin-top" , "16px");
+    $("#hamRaper").toggleClass( "hamRaper1" );
+     $("#hidethis").toggleClass( "hamhide hamburge" );
+    // $(".hamburger").css( "margin" , "-1px" );
+      $("#ham11").toggleClass( "ham1 hamburger" );
+      $("#ham12").toggleClass( "ham2 hamburger" );
+     // $("#menue1").css("display" , "flex");
+      $("#menue1").toggleClass( "navi1 navi" );
+
+      //$("#hidethis").toggleClass( "hamhide" );
+
       
-     
+      
     
     });
     
-    
+   // ScrollReveal().reveal('.hack', { delay: 250 });  
     
     
 });

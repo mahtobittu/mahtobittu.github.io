@@ -13,6 +13,39 @@ h3{
     letter-spacing: 2px;
 
 }
+#hamRaper{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.navi{
+
+    display: none;
+
+}
+
+.navi1{
+
+    box-sizing: border-box;
+    display: flex;
+    background-color: #6a5acd;
+    width: 100vw;
+    height: 100vh;
+    
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    /* top: 66px; */
+    justify-content: center;
+    
+
+}
+
+.hamRaper1{
+
+    margin-top: 18px;
+}
 
 .hamhide{
 
@@ -23,12 +56,21 @@ h3{
 .ham1{
     
     transform: rotate(45deg);
+    margin: -1px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 39px;
+    z-index: 1;
 }
 
 .ham2{
 
     transform: rotate(135deg);
-    
+    margin: -1px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    width: 39px;
+    z-index: 1;
 }
 
 
@@ -76,11 +118,12 @@ h3{
 
 .hamburger{
     
-    margin: 7px;
+    margin: 4px;
     height: 3px;
     background-color: rgb(255, 255, 255);
     width: 39px;
-
+    z-index: 1;
+  
 }
 
 
