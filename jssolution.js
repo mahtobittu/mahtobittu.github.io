@@ -14,9 +14,9 @@ $(document).ready(function () {
 
   $("#hamRaper").click(function() {
 
-
-    //$(this).css("margin-top" , "16px");
-    $("#hamRaper").toggleClass( "hamRaper1" );
+    $(this).toggleClass( "hamRaper1" );
+    
+    
      $("#hidethis").toggleClass( "hamhide hamburge" );
     // $(".hamburger").css( "margin" , "-1px" );
       $("#ham11").toggleClass( "ham1 hamburger" );

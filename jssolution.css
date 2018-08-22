@@ -13,12 +13,7 @@ h3{
     letter-spacing: 2px;
 
 }
-#hamRaper{
 
-    display: flex;
-    flex-direction: column;
-
-}
 .navi{
 
     display: none;
@@ -29,7 +24,7 @@ h3{
 
     box-sizing: border-box;
     display: flex;
-    background-color: #6a5acd;
+    background-color: #101010;
     width: 100vw;
     height: 100vh;
     
@@ -42,10 +37,7 @@ h3{
 
 }
 
-.hamRaper1{
 
-    margin-top: 18px;
-}
 
 .hamhide{
 
@@ -73,19 +65,31 @@ h3{
     z-index: 1;
 }
 
+.haha{
 
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamRaper1{
+    
+        
+        margin-top: 91px;
+        display: flex;
+        flex-direction: column;
+    }
 
 #firstContainer{
 
     position: fixed;
     display: flex;
     /* top: 0; */
-    margin-top: 40px;
     display: flex;
     justify-content: center;
     /* box-shadow: 1px 1px 3px 0px; */
-    width: 100%;
-    height: auto;
+    /* width: 100%; */
+    /* height: auto; */
     /* background-color: white; */
     z-index: 3;
     border-radius: 97px;
@@ -133,8 +137,9 @@ a{
     /* padding: 10px;
     margin-right: 1em; */
     color: white;
-    font-size: 25px;
+    font-size: 55px;
     letter-spacing: .1em;
+    padding: 13px;
 }
 
 
