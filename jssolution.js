@@ -6,6 +6,10 @@ $(document).ready(function () {
     $("li").css("margin-bottom" , "5px");
     $("#scrolld").animate({height :'30px'}, "slow");
     //$("li").css("font-size" , "larger");
+    $( document ).on( "mousemove", function( event ) {
+      $( "#span0" ).text(  event.pageX );
+      $( "#span1" ).text( event.pageY);
+    });
     
     
     
@@ -15,8 +19,10 @@ $(document).ready(function () {
   $("#hamRaper").click(function() {
 
     $(this).toggleClass( "hamRaper1" );
-    
-    
+    var g = $(this).width();
+
+    //$("").text(g);
+     
      $("#hidethis").toggleClass( "hamhide hamburge" );
     // $(".hamburger").css( "margin" , "-1px" );
       $("#ham11").toggleClass( "ham1 hamburger" );
@@ -25,6 +31,8 @@ $(document).ready(function () {
       $("#menue1").toggleClass( "navi1 navi" );
 
       //$("#hidethis").toggleClass( "hamhide" );
+     // var offset = $(body).offset();
+      //var x = mouseX - 
 
       
       
