@@ -15,18 +15,20 @@ body{
     background-position: center; 
 }
 
-.imgContainer1{
-    background-image: url(lamon11.svg);
+.imgContainer2{
+    background-image: url(ham.png);
     background-repeat: no-repeat;
     background-color: black;
     background-position: center; 
+    background-size: cover;
 }
 
-.imgContainer1{
-    background-image: url(lamon11.svg);
+.imgContainer3{
+    background-image: url(kk.png);
     background-repeat: no-repeat;
     background-color: black;
-    background-position: center; 
+    background-position: center;
+    background-size: 487px;
 }
 
 
@@ -334,7 +336,7 @@ header{
 .imgContainer{
 
     height: 320px;
-    background-color: #4a495473;
+   
 }
 
 .projectbox{
