@@ -15,24 +15,22 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <body>
-
-        <div style="    height: 100vh;
-        /* width: 100vw; */
-        background-color: slateblue;
-        display: flex;
-        justify-content: center;">
+        <div ></div>
+              
+        <div id='firstdiv'>
 
             <nav id="firstContainer">
+                
 
-                <div style="display: flex;">
-
+                <div >
+                     <img src='bm-01-01.svg' class='logo'>
                 </div>
 
-                <div>
+                <div class='navigation'>
 
-                    <a class="menue">Projects</a>
-                    <a class="menue">About</a>
-                    <a class="menue">Contact</a>
+                    <a class="menue" href="#section1">Projects</a>
+                    <a class="menue" href="#section2">About</a>
+                    <a class="menue" href="#formwraper">Contact</a>
 
                 </div>
 
@@ -45,9 +43,9 @@
                 </div>
                 <div  id="menue1" class="navi">
 
-                    <a>Projects</a>
-                    <a>About</a>
-                    <a>Contact</a>
+                    <a href="#section1">Projects</a>
+                    <a href="#section2">About</a>
+                    <a href="#formwraper">Contact</a>
                   
 
                 </div>
@@ -61,15 +59,10 @@
                 <div id="hlo">
                     <a id="logo">BRAJESH MAHTO</a>
                     <p id="intro1">Front-end Web-developer</p>
-                    <p id ="showed" style=" position: fixed;">x<span id="span0"></span><br>
-                        y<span id="span1" ></span></p>
+                   
                 </div>
 
-                <div></div>
-                <div></div>
-
-
-                <div style="display:flex;  justify-content: center; margin-top: 20px;">
+                                <div style="display:flex;  justify-content: center; margin-top: 20px;">
 
                     <img src="scroll.svg" id="scrolld" class="hack">
 
@@ -80,52 +73,46 @@
         </div>
 
         <main>
-
-            <div style="height:100vh; display:flex; padding-right: 10px; padding-left: 10px;
-                           flex-direction: column;">
-                <h2 style="    font-size: larger;
-                font-weight: bold;
-                text-align: center;
-                color: gray;
-                padding: 28px;" class="hack">Projects</h2>
+               
+            <h2 class='h2margin' id='section1'>Projects</h2>
+            <div id='maincontainer'>
+               
 
 
+
+                <div class="projectbox hack">
+                    <div class="imgContainer"></div>
+                    <div style="background-color: #4a4954; padding: 21px;
+                            
+                            text-align: center;">
+                        <a href= 'mahtobitt.github.io/blog/' class='projestname'><h3>blog templet</h3></a>
+                    </div>
+                </div>
 
                 <div class="projectbox hack">
                     <div class="imgContainer"></div>
                     <div style="       background-color: #4a4954; padding: 21px;
                           
                           text-align: center;">
-                        <h3>Calculator</h3>
+                        <a href= 'mahtobitt.github.io/godda/' class='projestname'><h3>godda</h3></a>
                     </div>
                 </div>
 
                 <div class="projectbox hack">
                     <div class="imgContainer"></div>
-                    <div style="        background-color: #4a4954; padding: 21px;
-                            
-                            text-align: center;">
-                        <h3>Calculator</h3>
+                    <div style="background-color: #4a4954; padding: 21px;  text-align: center;">
+                        <a href ='mahtobitt.github.io/jturism/' class='projestname'><h3>jharkhand tourism</h3></a>
                     </div>
                 </div>
 
                 <div class="projectbox hack">
                     <div class="imgContainer"></div>
-                    <div style="       background-color: #4a4954; padding: 21px;
-                            
-                            text-align: center;">
-                        <h3>Calculator</h3>
+                    <div style="background-color: #4a4954; padding: 21px; text-align: center;">
+                       <a href ='mahtobitt.github.io/kkritz/' class='projestname'><h3 >kkritz kolkatta</h3></a>
                     </div>
                 </div>
 
-                <div class="projectbox hack">
-                    <div class="imgContainer"></div>
-                    <div style="        background-color: #4a4954; padding: 21px;
-                            
-                            text-align: center;">
-                        <h3>Calculator</h3>
-                    </div>
-                </div>
+                
 
 
                 <div class="projectbox hack">
@@ -146,36 +133,38 @@
                     </div>
                 </div>
 
-                <hr>
+            </div>
 
 
-                <div class="cartmarg ">
-                    <h2 class="h2margin hack">About</h2>
 
-                    <div style="    margin-top: 2.7em;
-                    /* margin-bottom: 21px; */
-                    font-size: 2em;
-                    color: slateblue;">
-                        <p style="letter-spacing: 2px;
-                        font-weight: 300;
-                        font-style: italic;
-                        color: #000000;
-                        font-size: 19px;" class="hack">
-                            Keep it simple silly
-                        </p>
-                        <p style="    color: #a196df;
-                        font-size: 16px;
-                        text-align: end;
-                        padding-right: 4em;
-                        margin-top: 5px;
-                        font-weight: initial;
-                        color: black;" class="hack">"marine"</p>
-                    </div>
+        </main>
 
-                    <p style="    margin-top: 2em;
-                    padding-top: 31px;
-                    font-size: larger;
-                    line-height: 28px;" class="hack">hi, i am brajesh mahto, a self thought front-end Developer. I started crafting my webdevelopment skill
+                <hr style="
+                width: 89vw;
+                margin: auto;
+            ">
+
+
+<h2 class="h2margin hack" id='section2'>About</h2>
+
+<div style="    margin-top: 2.7em;
+/* margin-bottom: 21px; */
+font-size: 2em;
+color: slateblue;">
+    <p style="letter-spacing: 2px; font-weight: 300; font-style: italic;
+    color: #ffffff;   font-size: 23px; padding: 12px;text-align: -webkit-right;
+    width: fit-content;   background-color: black;    margin: auto;" class="hack">
+        Keep it simple silly <br><span id='by'>" marine "</span>
+    </p>
+    
+</div>
+
+                <div class="cartmarg aboutavtar">
+                    
+
+                    <div id ='avtar'></div>
+
+                    <p  class="hack abtavtar">hi, i am BRAJESH MAHTO, a <span class='heigh'>self thought</span>webdesigner / front-end Developer.currently living in ranchi. I started crafting my webdevelopment skill
                         in 2016. i am also learning back-end. </p>
 
                 </div>
@@ -185,8 +174,8 @@
 
                 </div>
 
-
-                <div class="cartmarg">
+        <div id='skillcontainer'>
+                <div class="cartmarg boxstyle">
 
                     <h2 class="h2margin" class="hack">Skills</h2>
 
@@ -200,7 +189,7 @@
 
                 </div>
 
-                <div class="cartmarg">
+                <div class="cartmarg boxstyle">
 
                     <h2 class="h2margin" class="hack">Tools</h2>
 
@@ -213,22 +202,22 @@
 
                 </div>
 
-                <div class="cartmarg">
+                <div class="cartmarg boxstyle lastbox" >
 
                     <h2 class="h2margin hack">Links</h2>
 
-                    <ul style="font-size: large;  color: #0000ee; text-decoration: underline;">
-                        <li class="hack">w3schools</li>
-                        <li class="hack">w3resources</li>
-                        <li class="hack">codepen</li>
-                        <li class="hack">freecodecamp</li>
-                        <li class="hack">smashmagzin</li>
-                        <li class="hack">medium</li>
+                    <ul style="font-size: large;  color: black; text-decoration: underline;">
+                        
+                        <li class="hack"><a href='www.w3schools.com' class='resources'>w3schools</a></li>
+                        <li class="hack"><a href='www.freecodecamp.com' class='resources'>freecodecamp</a></li>
+                         <li class="hack"><a href='www.stackoverflow.com' class='resources'>stack overflow</a></li>
                     </ul>
 
                 </div>
 
-                <hr>
+            </div>
+
+                <hr class='secmarg'>
 
                 <div class="cartmarg" style="margin-bottom:0px;  box-sizing: border-box;">
 
@@ -238,17 +227,20 @@
                         <div id="formwraper" class="hack">
 
 
-                            <form style="height: 29em;
-                        width: 318px;
-                        box-shadow: 0px 0px 3px black;
-                        background: #ffffff;
-                        padding: 12px;
-                        margin-top: 3em;
-                        flex-direction: column;
-                        display: flex;
-                        color: white;">
+                            <form style="
+                            border: 1px solid #0000ff4f;
+                            height: 29em;
+                            width: 318px;
+                            /* box-shadow: 0px 0px 3px black; */
+                            background: #ffffff00;
+                            padding: 12px;
+                            margin-top: 3em;
+                            flex-direction: column;
+                            display: flex;
+                            color: white;
+                            ">
 
-                                <h2 class="h2margin" style="padding-top: 20px;     color: #656dd8;">contact</h2>
+                                <h2 style="color: #656dd8; margin-bottom: 5vh;">contact</h2>
                                 <textarea class="input1" placeholder="name" type="text"></textarea>
 
 
@@ -279,11 +271,7 @@
 
 
 
-                </div>
-
-
-
-        </main>
+               
 
 
 

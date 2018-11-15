@@ -7,11 +7,52 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 
 }
-h3{
 
-    font-weight: 100;
-    letter-spacing: 2px;
 
+.aboutavtar.cartmarg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+}
+a.resources {
+    color: black;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+
+
+#firstContainer{
+
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+    padding: 18px;
+}
+#by{font-size: medium;
+    background: transparent;
+    color: #ffff008a;
+    padding: 0px;}
+
+#firstdiv{
+    background-position: center;
+    height: 100vh;
+    background-color: slateblue;
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+img.logo {
+    width: 60px;
+}
+
+.menue:hover{
+   
+    color: #FFC107;
 }
 
 .navi{
@@ -19,28 +60,36 @@ h3{
     display: none;
 
 }
-span {
-    color: white;
-    background-color: black;
-    padding: 8px;
-    margin: 25px;
-    font-size: 29px;
+
+
+.boxstyle {
+    width: 70vw;
+    height: 36vh;
+   
+    border: 1px solid #00000030;
+}
+.hack{
+    list-style: none;
 }
 
 
 .navi1{
 
+    
     box-sizing: border-box;
     display: flex;
     background-color: #101010;
     width: 100vw;
     height: 100vh;
-    
     position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
     flex-direction: column;
     align-items: center;
     /* top: 66px; */
     justify-content: center;
+    z-index: 2;
     
 
 }
@@ -77,40 +126,25 @@ span {
 
     width: 60px;
     height: 60px;
-    margin-top: 76px;
     display: flex;
     flex-direction: column;
     background-color: #00000054;
     border-radius: 69%;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
+    z-index: 3;
     
 }
 
 .hamRaper1{
     
         
-        margin-top: 91px;
+    
         display: flex;
         flex-direction: column;
     }
 
-#firstContainer{
 
-    position: fixed;
-    display: flex;
-    /* top: 0; */
-    display: flex;
-    justify-content: center;
-    /* box-shadow: 1px 1px 3px 0px; */
-    /* width: 100%; */
-    /* height: auto; */
-    /* background-color: white; */
-    z-index: 3;
-    border-radius: 97px;
-    
-}
 
 #logo{
      
@@ -126,15 +160,7 @@ span {
 
 }
 
-/* #hamRaper{
 
-    width: 33px;
-    height: 4px;
-    margin: 3px;
-    background-color: rgb(0, 0, 0);
-   
-
-} */
 
 .hamburger{
     
@@ -150,8 +176,7 @@ span {
 
 a{
 
-    /* padding: 10px;
-    margin-right: 1em; */
+   
     color: white;
     font-size: 55px;
     letter-spacing: .1em;
@@ -174,8 +199,18 @@ a{
 
         display:none;
     }
+   
     
 }
+@media screen and (min-width:600px){
+ 
+    
+       .haha{
+           display: none;
+       }
+       
+
+   }
 
 
 
@@ -190,17 +225,29 @@ header{
     top: 0;
     z-index: 1;
 
-}
+
+    }
 
 #hlo{
     
     display: flex;
     flex-direction: column;
+    width: fit-content;
+    margin: auto;
+
+   
 }
 
 #intro{
 
     font-size: 29px;
+    background-color: yellow;
+    color: rgb(0, 0, 255);
+}
+
+.imgContainer:hover{
+
+    background-color: #3F51B5;
 }
 
 #intro1{
@@ -213,22 +260,8 @@ header{
     text-align: center;
 }
 
-/* #line{
-      
-    border-left: 1px solid rgb(136, 127, 127);
-    height: 87vh;
-    display: block;
-    margin-left: 9em;
-    /* margin-top: 11px; 
-    position: absolute;
-    top: 0;
-    margin-top: 58px;
-    z-index: 0;
 
-} */
-span{
-    color: white;
-}
+
 
 
 
@@ -260,7 +293,7 @@ span{
     width: auto;
     height: 48px;
     margin-top: 150px;
-    animation: mymove 2s;
+    animation: mymove 1000ms;
     animation-iteration-count: infinite;
     animation-timing-function:ease-in;
    
@@ -268,15 +301,16 @@ span{
 }
 
 
+
 @keyframes mymove {
-    from { margin-top: 150px;}
-    to { margin-top: 160px;}
+    from { margin-top: 15px;}
+    to { margin-top: 20px;}
 }
 
 
 .imgContainer{
 
-    height: 390px;
+    height: 320px;
     background-color: #4a495473;
 }
 
@@ -288,42 +322,60 @@ span{
 
 .cartmarg{
 
-    margin-bottom: 53px;
+   
     text-align: center;
+}
+
+#avtar{
+    width: 222px;
+    height: 222px;
+    background-image: url(avtar.jpg);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: 192px;
+    background-color: yellow;
+    padding-bottom: 30px;
 }
 
 .h2margin{
     
-    padding: 33px;
-    box-sizing: border-box;
-    color: #000000d6;
-    /* margin-bottom: 28px; */
-    font-weight: 400;
-    /* margin-top: 28px; */
-    font-weight: bold;
     font-size: larger;
-    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    background-color: yellow;
+    padding: 6px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
     
 }
 
-.input1{
-    
-    font-weight: 100;
-    margin-bottom: 8px;
-    height: 25px;
-    background-color: transparent;
-    padding: .375rem .75rem;
-    font-size: 1.2em;
-    line-height: 1.5;
-    color: #414bd6;
-    background-color: #fff;
-    background-image: none;
-    border: transparent;
-    /* border-radius: .25rem; */
-    letter-spacing: 1px;
-    border-bottom: 1px solid darkgrey;
-    outline:none;
-}
+.input1{    
+        font-weight: 100;
+        margin-bottom: 8px;
+        height: 25px;
+        background-color: transparent;
+        padding: .375rem .75rem;
+        font-size: 1.2em;
+        line-height: 1.5;
+        color: #414bd6;
+        background-color: #414bd617;
+        background-image: none;
+        border: transparent;
+        letter-spacing: 1px;
+        border-bottom: 1px solid darkgrey;
+        outline: none;}
+        .cartmarg {
+            text-align: center;
+            margin: auto;
+        }
+        .boxstyle:hover{
+            background-color:  #ccc;;
+        }
+        
+        
 
 label{
     
@@ -343,7 +395,6 @@ textarea::placeholder {
     
     outline: none;
     border-bottom: 2px solid #414bd6;
-
   }
 
 
@@ -352,4 +403,137 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
 
+  }
+  #maincontainer{
+    display:flex; padding-right: 10px; padding-left: 10px; flex-direction: column;
+  }
+
+  .projestname{
+    font-size: 16px;
+    padding: 0px;
+    text-decoration: none;}
+
+    heigh{
+        font-weight: bold;
+    }
+
+    @media screen and (max-width:599px){
+
+         p.abtavtar {
+            margin: auto;
+            margin-top: 0em;
+            padding-top: 40px;
+            font-size: 19px;
+            line-height: 29px;
+            width: 70vw;
+            text-align: center;
+        }
+        .cartmarg {
+         
+            margin-top: 2vh;
+        }
+        hr.secmarg {
+           
+            margin-top:5vh;
+        }
+
+    }
+
+  @media screen and (min-width:600px){
+      #firstContainer{
+        position: fixed;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: safe;
+        z-index: 3;
+        padding: 8px 14vw 0px 15vw;
+        background-color: #0202023b;   
+      }
+      .menue{
+          font-size:23px;
+      }
+
+      header{
+          margin-top:53vh;
+        }
+     
+      
+      #back{
+        height: 100vh;
+         width: 100vw; 
+        
+        background-image: url(back.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+      }
+      #hlo{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+      }
+      .projectbox{
+          width:400px;
+      }
+
+      
+
+      #maincontainer{flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-around;}
+
+      .imgContainer{ height: 300px;}
+      .projectbox{width:335px;}
+    
+
+        img.logo {
+            height: 90px;
+        }
+
+        .navigation {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .boxstyle{width: 300px; height: 30vh;}
+       
+
+        .aboutavtar.cartmarg {
+            display: flex;
+            flex-direction: row;
+            
+            align-items: center;
+            width: 70vw;
+            margin: auto;
+            margin-top: 21vh;
+        }
+        hr.secmarg {
+            width: 68vw;
+            margin: auto;
+            margin-top:5vh;
+        }
+        p.abtavtar {
+            margin: auto;
+            margin-top: 0em;
+            padding-top: 74px;
+            font-size: 19px;
+            line-height: 29px;
+            width: 43vw;
+            text-align: left;
+        }
+        #skillcontainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: auto;
+            margin-top: 20vh;
+            width: 70vw;
+        }
+        .cartmarg {
+            
+            margin: auto;
+        }
   }

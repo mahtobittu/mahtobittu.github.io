@@ -1,15 +1,32 @@
 
 $(document).ready(function () {
     
-
+    
     $("h3").css("color" , "white");
     $("li").css("margin-bottom" , "5px");
     $("#scrolld").animate({height :'30px'}, "slow");
     //$("li").css("font-size" , "larger");
-    $( document ).on( "mousemove", function( event ) {
-      $( "#span0" ).text(  event.pageX );
-      $( "#span1" ).text( event.pageY);
-    });
+    // $( document ).on( "mousemove", function(){
+    //   $( "#span0" ).text(  event.pageX );
+    //   $( "#span1" ).text( event.pageY);
+    //   $("#span0").css("color" , "red");
+    //   var f = event.pageX ;
+    //   console.log(f);
+    //   //$("#logo").css("transform" , "rotate(" + f +"deg)" );
+    //   $("#logo").css("letter-spacing",  f/50 +"px" );
+      
+    // });
+
+    // function nn(){
+
+    //   var x = Math.random();
+    //   return x;
+
+    // }
+
+    
+
+
     
     
     
