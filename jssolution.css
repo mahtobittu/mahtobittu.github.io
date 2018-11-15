@@ -8,6 +8,27 @@ body{
 
 }
 
+.imgContainer1{
+    background-image: url(lamon11.svg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center; 
+}
+
+.imgContainer1{
+    background-image: url(lamon11.svg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center; 
+}
+
+.imgContainer1{
+    background-image: url(lamon11.svg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center; 
+}
+
 
 .aboutavtar.cartmarg {
     display: flex;
@@ -245,19 +266,21 @@ header{
     color: rgb(0, 0, 255);
 }
 
-.imgContainer:hover{
 
-    background-color: #3F51B5;
-}
 
 #intro1{
      
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: white;
+    border:1px solid rgb(106, 90, 205);
     color: rgb(106, 90, 205);
     padding: 13px;
-    /* width: 213px; */
-    text-align: center;
+        text-align: center;
+        transition: 700ms ease-in-out;
+}
+#intro1:hover{
+    background-color: rgb(106, 90, 205);
+    color:white;
+    
 }
 
 
